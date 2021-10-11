@@ -1,15 +1,45 @@
-header{
+.bg-azzurro{
+  background-color: #1abc9c;
+}
+
+header, footer{
   background-color: #2c3e50;
 }
 
 .jumbotron{
   /* da togliere */
-  height: 700px;
   width: 100%;
   /* /da togliere */
-  background-color: #1abc9c;
 }
 
 .jumbo-img{
   height: 200px;
+}
+
+.colore-casa{
+  background-color: #ba4b63;
+}
+
+.colore-torta{
+  background-color: #1ea4b6;
+}
+
+.colore-circo{
+  background-color: black;
+}
+
+.colore-joystick{
+  background-color: #1c83c1;
+}
+
+.colore-cassaforte{
+  background-color: #0e38b5;
+}
+
+.colore-submarine{
+  background-color: #ccb2a3;
+}
+
+.footer-top{
+  background-color: #3a546d;
 }
