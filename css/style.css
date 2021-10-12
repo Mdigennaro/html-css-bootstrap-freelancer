@@ -6,40 +6,92 @@ header, footer{
   background-color: #2c3e50;
 }
 
-.jumbotron{
-  /* da togliere */
-  width: 100%;
-  /* /da togliere */
+.mdg-inner-jumbo{
+  width: 800px;
+  max-width: 80%;
+  margin: 0 auto
 }
 
-.jumbo-img{
-  height: 200px;
+.mdg-py-50{
+  padding: 50px 0;
+}
+
+.mdg-bg-green{
+  background-color: #31BC9C;
 }
 
 .colore-casa{
   background-color: #ba4b63;
+  border-radius: 10px;
 }
 
 .colore-torta{
   background-color: #1ea4b6;
+  border-radius: 10px;
 }
 
 .colore-circo{
   background-color: black;
+  border-radius: 10px;
 }
 
 .colore-joystick{
   background-color: #1c83c1;
+  border-radius: 10px;
 }
 
 .colore-cassaforte{
   background-color: #0e38b5;
+  border-radius: 10px;
 }
 
 .colore-submarine{
   background-color: #ccb2a3;
+  border-radius: 10px;
 }
 
 .footer-top{
   background-color: #3a546d;
+}
+
+.mdg-logo{
+  color: white;
+  text-transform: uppercase;
+  font-size: large;
+  font-weight: bold;
+}
+
+.mdg-a-header{
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: bold;
+}
+
+.mdg-hamb{
+  font-size: 20px;
+  padding: 4px 10px;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.mdg-h2{
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.mdg-impieghi{
+  color: white;
+  text-transform: uppercase;
+}
+
+.mdg-color-h2{
+  color: #333333;
+}
+
+.mdg-box img{
+  width: 100%;
 }
