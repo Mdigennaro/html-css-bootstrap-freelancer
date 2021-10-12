@@ -6,6 +6,12 @@ header, footer{
   background-color: #2c3e50;
 }
 
+.mdg-linea{
+  border: 1px solid white;
+  margin-top: 12px;
+  background-color: white;
+}
+
 .mdg-inner-jumbo{
   width: 800px;
   max-width: 80%;
@@ -79,7 +85,7 @@ header, footer{
 .mdg-h2{
   color: white;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -161,4 +167,10 @@ header, footer{
 
 .mdg-font-span{
   font-size: 10px;
+}
+
+.mdg-linea-scura{
+  border: 1px solid #333333;
+  margin-top: 13px;
+  background-color: #333333;
 }
