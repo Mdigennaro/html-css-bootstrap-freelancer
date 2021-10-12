@@ -83,7 +83,7 @@ header, footer{
   font-weight: 600;
 }
 
-.mdg-impieghi{
+.mdg-bianco{
   color: white;
   text-transform: uppercase;
 }
@@ -92,6 +92,73 @@ header, footer{
   color: #333333;
 }
 
-.mdg-box img{
+.mdg-image{
   width: 100%;
+  display: block;
+}
+
+.box-hover{
+  position: relative;
+}
+
+.mdg-hover{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(26, 188, 156, .5);
+  display: none;
+  border-radius: 10px;
+}
+
+.box-hover:hover .mdg-hover {
+  display: block;
+}
+
+.mdg-piu{
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: none;
+}
+
+.mdg-p{
+  color: white;
+}
+
+.mdg-btn{
+  color: white;
+  border: 1px solid white;
+}
+
+.mdg-btn:hover{
+  background-color: white;
+}
+
+.mdg-border{
+  border: none;
+  border-bottom:1px solid lightgray;
+  border-radius: 0;
+}
+
+.mdg-social{
+  padding: 7px 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.mdg-color-green{
+  color: #1abc9c;
+}
+
+.mdg-font-span{
+  font-size: 10px;
 }
